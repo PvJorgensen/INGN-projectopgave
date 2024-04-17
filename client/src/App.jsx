@@ -1,12 +1,10 @@
-import { Headernav } from './Components/Header/Headernav'
-import { Article } from './Components/Articles/Article'
+import { AppRouter } from './Components/AppRouter/AppRouter';
 import './App.css'
 function App() {
 
   return (
     <>
-    <Headernav></Headernav>
-    <Article></Article>
+    <AppRouter></AppRouter>
     </>
   )
 }
