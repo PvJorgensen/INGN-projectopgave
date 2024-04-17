@@ -1,0 +1,46 @@
+.formwrapper {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    padding: 260px;
+    form {
+        width: 100%;
+    }
+    div {
+     display: flex;
+     flex-direction: column;
+     label {
+        text-align: center;
+        margin: 10px;
+     }
+     input {
+        margin: auto;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #c52525;
+     }
+    }
+    button {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        background-color: white;
+        border: 2px solid #c52525;
+        padding: 10px 30px 10px 30px;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+    span {
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    input {
+        
+    }
+  }

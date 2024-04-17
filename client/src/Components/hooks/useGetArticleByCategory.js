@@ -3,7 +3,6 @@ import { client } from "../static/contentfulClient";
 
 export function useGetArticleByCategory(selectedCategory) {
   const [data, setData] = useState();
-    console.log(selectedCategory);
 
   useEffect(() => {
     client

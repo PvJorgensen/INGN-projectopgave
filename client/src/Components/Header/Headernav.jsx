@@ -15,7 +15,7 @@ export const Headernav = ({setSelectedCat}) => {
     <>
 <div className={styles.headerwrapper}> 
   <div className={styles.headerlogo}>
-    <h1>INGN</h1>
+    <a href="/">INGN</a>
   </div>
   <ul className={styles.navbar}>
     <li><span className={styles.seperator}></span><a href="/">Alle</a><span className={styles.seperator}></span></li>
